@@ -50,4 +50,4 @@ base <- rbind.fill(
 
 base$programa <- toupper(base$programa)
 
-write.csv2(base,"tabelas/docente_detalhes.csv",row.names=F,na="")
+write.csv2(base,"tabelas/docentes_detalhes.csv",row.names=F,na="")
