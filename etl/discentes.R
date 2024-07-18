@@ -4,7 +4,7 @@ library(plyr)
 dir <- "fontes/"
 
 arquivos <- list.files(dir)
-arquivos <- head(arquivos[arquivos %ilike% "colsucup"],9)
+arquivos <- head(arquivos[arquivos %ilike% "discente"],9)
 
 ate_2012 <- data.frame()
 
@@ -20,7 +20,7 @@ for(arquivo in arquivos){
 }
 
 arquivos <- list.files(dir)
-arquivos <- tail(arquivos[arquivos %ilike% "colsucup"],10)
+arquivos <- tail(arquivos[arquivos %ilike% "discente"],10)
 
 desde_2013 <- data.frame()
 
